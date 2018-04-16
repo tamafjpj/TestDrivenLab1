@@ -69,9 +69,9 @@ public class Test {
 
     public void doAllTests() {
         if (testIntSum()) System.out.println("Int sum test passed");else System.out.println("Int sum test failed");
-        if (testIntSub()) System.out.println("Int sub test passed");else System.out.println("Int sum test failed");
-        if (testIntMul()) System.out.println("Int mul test passed");else System.out.println("Int sum test failed");
-        if (testIntDiv()) System.out.println("Int div test passed");else System.out.println("Int sum test failed");
+        if (testIntSub()) System.out.println("Int sub test passed");else System.out.println("Int sub test failed");
+        if (testIntMul()) System.out.println("Int mul test passed");else System.out.println("Int mul test failed");
+        if (testIntDiv()) System.out.println("Int div test passed");else System.out.println("Int div test failed");
         if (testDoubleSum()) System.out.println("Double sum test passed");else System.out.println("Double sum test failed");
         if (testDoubleSub()) System.out.println("Double sub test passed");else System.out.println("Double sub test failed");
         if (testDoubleMul()) System.out.println("Double mul test passed");else System.out.println("Double mul test failed");
